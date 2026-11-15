@@ -1,0 +1,66 @@
+body{font-family:Arial,sans-serif;margin:0;padding:0;background:#fff;color:#222}
+.container{max-width:1200px;margin:0 auto;padding:0 1rem}
+.site-header{background:#0a3d62;padding:1rem;color:#fff}
+.site-header .header-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem}
+.header-actions{display:flex;gap:0.5rem;align-items:center}
+.search-box{padding:0.3rem;border-radius:4px;border:1px solid #ccc}
+.my-rei{color:#fff;text-decoration:none}
+.menu-btn{background:#fff;color:#0a3d62;border:none;padding:0.3rem 0.6rem;border-radius:4px}
+.site-header .logo{font-weight:bold;font-size:1.2rem}
+.main-nav a{margin-right:1rem;color:#fff;text-decoration:none}
+.main-nav a:hover{text-decoration:underline}
+main{padding:0}
+section{margin-bottom:2rem}
+h2{border-bottom:2px solid #0a3d62;padding-bottom:0.3rem}
+.stories-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.gear-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.howto-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:1rem}
+.howto-grid .post-card{display:grid;grid-template-columns:200px 1fr;gap:1.5rem;align-items:start;padding:0;border:0;background:transparent;box-shadow:none;margin-bottom:0}
+.howto-grid .post-card img{width:200px;height:auto;object-fit:cover;border-radius:0}
+.howto-grid .post-card h3{margin:0 0 0.5rem;font-size:1.1rem}
+.howto-grid .post-card h3 a{color:#0066cc;text-decoration:underline}
+.howto-grid .post-card .excerpt{margin:0.5rem 0;color:#666;font-size:0.95rem;line-height:1.4}
+.howto-grid .post-card .meta{margin:0.5rem 0;color:#999;font-size:0.85rem}
+.howto-grid .post-card .meta a{color:#0066cc;text-decoration:underline}
+.howto-grid .post-card .meta span{margin:0 0.3rem}
+.cinema-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.cinema-grid .post-card{display:flex;flex-direction:column}
+.top-stories-container{display:grid;grid-template-columns:2fr 1fr;gap:1.5rem;margin-bottom:1.5rem}
+.main-story{margin-bottom:1rem}
+.main-story img{height:300px;object-fit:cover}
+.sub-story{display:flex;gap:1rem;align-items:flex-start;padding:0.8rem 0;border-bottom:1px solid #eee;margin-bottom:1rem}
+.sub-story:last-child{border-bottom:none}
+.sub-story .story-text{flex:1}
+.sub-story .story-thumb{width:120px;height:80px;object-fit:cover;border-radius:4px}
+.sub-story h3{margin:0 0 0.3rem;font-size:1rem}
+.sub-story h3 a{color:#0066cc;text-decoration:none}
+.sub-story h3 a:hover{text-decoration:underline}
+.sub-story .excerpt{margin:0.2rem 0;color:#555;font-size:0.85rem}
+.sub-story .meta{font-size:0.8rem;color:#999;margin:0.2rem 0}
+.posts-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:1.5rem}
+.archive-title{font-size:2rem;margin:1rem 0 0.5rem;color:#0a3d62;border-bottom:2px solid #0a3d62;padding-bottom:0.5rem}
+.breadcrumbs{font-size:0.9rem;color:#666;margin-bottom:1rem}
+.breadcrumbs a{color:#0a3d62;text-decoration:none}
+.breadcrumbs a:hover{text-decoration:underline}
+.posts-grid .post-card{background:#fff;padding:0;border-radius:8px;overflow:hidden;box-shadow:0 2px 4px rgba(0,0,0,0.1);margin-bottom:1rem}
+.posts-grid .post-card img{width:100%;height:200px;object-fit:cover}
+.posts-grid .post-card h3{margin:0.8rem 0.8rem 0.3rem;font-size:1.1rem;color:#0a3d62}
+.posts-grid .post-card h3 a{color:#0a3d62;text-decoration:none}
+.posts-grid .post-card h3 a:hover{text-decoration:underline}
+.posts-grid .post-card .excerpt{font-size:0.9rem;color:#555;margin:0 0.8rem 0.8rem;line-height:1.4}
+.pagination-wrapper{width:100%;display:flex;justify-content:center;margin-top:2rem}
+.pagination a,.pagination span{display:inline-block;padding:0.3rem 0.6rem;margin:0 0.3rem;color:#555;text-decoration:none}
+.pagination a:hover{color:#0a3d62}
+.pagination .current{color:#0a3d62;border-bottom:2px solid #0a3d62;padding-bottom:0.2rem}
+.pagination .ellipsis{color:#999;margin:0 0.3rem}
+.pagination .prev,.pagination .next{margin:0 1rem}
+.read-more{display:block;margin-top:0.5rem;color:#0a3d62;text-decoration:none;font-weight:bold}
+.read-more:hover{text-decoration:underline}
+.site-footer{background:#0a3d62;color:#fff;padding:1rem;text-align:center;margin-top:2rem}
+.site-footer a{color:#fff;margin:0 0.5rem;text-decoration:none}
+.post-detail{max-width:800px;margin:auto}
+.hero-img{width:100%;height:auto;border-radius:6px;margin-bottom:1rem}
+.post-detail h1{font-size:2rem;margin:0.5rem 0}
+.post-detail .meta{color:#666;margin-bottom:1rem}
+.post-detail .content{line-height:1.6}
